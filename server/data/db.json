@@ -1,0 +1,1934 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ashish Chavan",
+      "email": "ashish130392@gmail.com",
+      "mobile": "1234567890",
+      "password": "$2a$10$qS10/TJuMqyc5b0Ju1p1hOvjbmjt.vvNblExTCC.gjFp8wf.wBBiC"
+    }
+  ],
+  "orders": [],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Urban Biryani House",
+      "cuisine": [
+        "Biryani",
+        "North Indian"
+      ],
+      "rating": 4.7,
+      "deliveryTime": 28,
+      "location": "City Center",
+      "image": "https://images.unsplash.com/photo-1571091718767-18ce7fdf6b25?auto=format&fit=crop&w=800&q=80",
+      "offer": "20% off"
+    },
+    {
+      "id": 2,
+      "name": "Pizza Panorama",
+      "cuisine": [
+        "Pizza",
+        "Italian"
+      ],
+      "rating": 4.6,
+      "deliveryTime": 25,
+      "location": "East Market",
+      "image": "https://images.unsplash.com/photo-1601924582975-4a4f7229f3d0?auto=format&fit=crop&w=800&q=80",
+      "offer": "Free garlic bread"
+    },
+    {
+      "id": 3,
+      "name": "Burger Boulevard",
+      "cuisine": [
+        "Burger",
+        "Fast Food"
+      ],
+      "rating": 4.5,
+      "deliveryTime": 20,
+      "location": "Harbor Road",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "offer": "Buy 1 Get 1"
+    },
+    {
+      "id": 4,
+      "name": "Spice Route Chinese",
+      "cuisine": [
+        "Chinese",
+        "Asian"
+      ],
+      "rating": 4.4,
+      "deliveryTime": 30,
+      "location": "Oasis Plaza",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+      "offer": "15% off"
+    },
+    {
+      "id": 5,
+      "name": "South Spice Dosa",
+      "cuisine": [
+        "South Indian"
+      ],
+      "rating": 4.8,
+      "deliveryTime": 22,
+      "location": "Green Street",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80",
+      "offer": "Combo offers"
+    },
+    {
+      "id": 6,
+      "name": "Dessert Delights",
+      "cuisine": [
+        "Desserts",
+        "Bakery"
+      ],
+      "rating": 4.9,
+      "deliveryTime": 18,
+      "location": "Riverfront",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "offer": "20% off"
+    },
+    {
+      "id": 7,
+      "name": "Tandoori Tales",
+      "cuisine": [
+        "North Indian"
+      ],
+      "rating": 4.6,
+      "deliveryTime": 27,
+      "location": "Old Town",
+      "image": "https://images.unsplash.com/photo-1604908177522-2d8f2b30c89b?auto=format&fit=crop&w=800&q=80",
+      "offer": "Free naan"
+    },
+    {
+      "id": 8,
+      "name": "Sushi & Wok",
+      "cuisine": [
+        "Japanese",
+        "Asian"
+      ],
+      "rating": 4.5,
+      "deliveryTime": 32,
+      "location": "Skyline Avenue",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80",
+      "offer": "Combo meals"
+    },
+    {
+      "id": 9,
+      "name": "Green Bowl Cafe",
+      "cuisine": [
+        "Healthy",
+        "Salads"
+      ],
+      "rating": 4.7,
+      "deliveryTime": 24,
+      "location": "Campus Lane",
+      "image": "https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=800&q=80",
+      "offer": "10% off"
+    },
+    {
+      "id": 10,
+      "name": "Curry Corner",
+      "cuisine": [
+        "Indian",
+        "Street Food"
+      ],
+      "rating": 4.4,
+      "deliveryTime": 26,
+      "location": "Market Square",
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80",
+      "offer": "Festive deal"
+    },
+    {
+      "id": 11,
+      "name": "Noodle Nest",
+      "cuisine": [
+        "Chinese",
+        "Thai"
+      ],
+      "rating": 4.6,
+      "deliveryTime": 29,
+      "location": "Metro Plaza",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "offer": "Free drink"
+    },
+    {
+      "id": 12,
+      "name": "Pasta Perfection",
+      "cuisine": [
+        "Italian"
+      ],
+      "rating": 4.8,
+      "deliveryTime": 23,
+      "location": "Hill Road",
+      "image": "https://images.unsplash.com/photo-1512058564366-c9fbd0f2e4ff?auto=format&fit=crop&w=800&q=80",
+      "offer": "25% off"
+    },
+    {
+      "id": 13,
+      "name": "Falafel Feast",
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "rating": 4.5,
+      "deliveryTime": 30,
+      "location": "Lakeside",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80",
+      "offer": "Healthy combo"
+    },
+    {
+      "id": 14,
+      "name": "Vegan Vibes",
+      "cuisine": [
+        "Healthy",
+        "Vegan"
+      ],
+      "rating": 4.7,
+      "deliveryTime": 22,
+      "location": "Forest Walk",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+      "offer": "Free dessert"
+    },
+    {
+      "id": 15,
+      "name": "Street Bites",
+      "cuisine": [
+        "Fast Food",
+        "Street"
+      ],
+      "rating": 4.3,
+      "deliveryTime": 21,
+      "location": "City Mall",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "offer": "Buy 2 Save 15%"
+    },
+    {
+      "id": 16,
+      "name": "Seafood Station",
+      "cuisine": [
+        "Seafood"
+      ],
+      "rating": 4.6,
+      "deliveryTime": 34,
+      "location": "Portside",
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80",
+      "offer": "30% off"
+    },
+    {
+      "id": 17,
+      "name": "Mexi Munch",
+      "cuisine": [
+        "Mexican"
+      ],
+      "rating": 4.5,
+      "deliveryTime": 28,
+      "location": "Sunset Boulevard",
+      "image": "https://images.unsplash.com/photo-1543352634-2dd40f12d4aa?auto=format&fit=crop&w=800&q=80",
+      "offer": "Taco Tuesday"
+    },
+    {
+      "id": 18,
+      "name": "Cafe Italiano",
+      "cuisine": [
+        "Italian",
+        "Cafe"
+      ],
+      "rating": 4.8,
+      "deliveryTime": 24,
+      "location": "Garden District",
+      "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=800&q=80",
+      "offer": "Coffee combo"
+    },
+    {
+      "id": 19,
+      "name": "Kebab Kastle",
+      "cuisine": [
+        "Kebab",
+        "Middle Eastern"
+      ],
+      "rating": 4.6,
+      "deliveryTime": 27,
+      "location": "Market Lane",
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80",
+      "offer": "Family pack"
+    },
+    {
+      "id": 20,
+      "name": "Breakfast Barn",
+      "cuisine": [
+        "Breakfast",
+        "Cafe"
+      ],
+      "rating": 4.9,
+      "deliveryTime": 19,
+      "location": "Main Street",
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80",
+      "offer": "Morning offer"
+    },
+    {
+      "id": 21,
+      "name": "Rolls & Wraps",
+      "cuisine": [
+        "Street Food",
+        "Fast Food"
+      ],
+      "rating": 4.4,
+      "deliveryTime": 26,
+      "location": "Station Road",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+      "offer": "Wrap combo"
+    },
+    {
+      "id": 22,
+      "name": "Cloud 9 Desserts",
+      "cuisine": [
+        "Desserts"
+      ],
+      "rating": 4.9,
+      "deliveryTime": 20,
+      "location": "Boulevard",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
+      "offer": "Buy 1 Get 1"
+    },
+    {
+      "id": 23,
+      "name": "Grill Garden",
+      "cuisine": [
+        "Grill",
+        "Barbecue"
+      ],
+      "rating": 4.5,
+      "deliveryTime": 31,
+      "location": "Harbour Street",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "offer": "Weekend deal"
+    },
+    {
+      "id": 24,
+      "name": "Paani Puri Palace",
+      "cuisine": [
+        "Street Food",
+        "Indian"
+      ],
+      "rating": 4.4,
+      "deliveryTime": 18,
+      "location": "Heritage Walk",
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80",
+      "offer": "Pani Puri offer"
+    },
+    {
+      "id": 25,
+      "name": "Morning Munchies",
+      "cuisine": [
+        "Breakfast",
+        "Healthy"
+      ],
+      "rating": 4.8,
+      "deliveryTime": 20,
+      "location": "Sunrise Avenue",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+      "offer": "Breakfast special"
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "restaurantId": 1,
+      "restaurant": "Urban Biryani House",
+      "name": "Hyderabadi Chicken Biryani",
+      "description": "Aromatic chicken biryani served with raita and salad.",
+      "price": 320,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Basmati rice",
+        "Chicken",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1600628428660-93d52290f1db?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "restaurantId": 1,
+      "restaurant": "Urban Biryani House",
+      "name": "Vegetable Dum Biryani",
+      "description": "Mixed vegetables cooked with fragrant rice and spices.",
+      "price": 280,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Vegetables",
+        "Masala"
+      ],
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "restaurantId": 1,
+      "restaurant": "Urban Biryani House",
+      "name": "Paneer Tikka",
+      "description": "Smoky paneer cubes marinated in rich spices.",
+      "price": 240,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Paneer",
+        "Yogurt",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1600185363566-4dc8f5998872?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "restaurantId": 2,
+      "restaurant": "Pizza Panorama",
+      "name": "Classic Margherita Pizza",
+      "description": "Stone-baked pizza topped with mozzarella and basil.",
+      "price": 350,
+      "rating": 4.6,
+      "category": "Pizza",
+      "ingredients": [
+        "Tomato",
+        "Cheese",
+        "Basil"
+      ],
+      "image": "https://images.unsplash.com/photo-1548365328-965262d40a06?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 5,
+      "restaurantId": 2,
+      "restaurant": "Pizza Panorama",
+      "name": "Pepperoni Feast",
+      "description": "Delicious pepperoni pizza with extra cheese.",
+      "price": 420,
+      "rating": 4.7,
+      "category": "Pizza",
+      "ingredients": [
+        "Pepperoni",
+        "Cheese",
+        "Tomato sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1548365328-965262d40a06?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 6,
+      "restaurantId": 2,
+      "restaurant": "Pizza Panorama",
+      "name": "Garlic Breadsticks",
+      "description": "Crispy garlic bread with herbs and cheese.",
+      "price": 140,
+      "rating": 4.4,
+      "category": "Starters",
+      "ingredients": [
+        "Bread",
+        "Garlic",
+        "Herbs"
+      ],
+      "image": "https://images.unsplash.com/photo-1529692236671-f1a1f3834a21?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 7,
+      "restaurantId": 3,
+      "restaurant": "Burger Boulevard",
+      "name": "Classic Beef Burger",
+      "description": "Juicy beef patty with lettuce and special sauce.",
+      "price": 260,
+      "rating": 4.6,
+      "category": "Burger",
+      "ingredients": [
+        "Beef",
+        "Bun",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 8,
+      "restaurantId": 3,
+      "restaurant": "Burger Boulevard",
+      "name": "Cheese Burst Burger",
+      "description": "Loaded burger with melted cheese and crispy onion.",
+      "price": 280,
+      "rating": 4.7,
+      "category": "Burger",
+      "ingredients": [
+        "Cheese",
+        "Patty",
+        "Bun"
+      ],
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 9,
+      "restaurantId": 3,
+      "restaurant": "Burger Boulevard",
+      "name": "Loaded Fries",
+      "description": "Crispy fries topped with cheese and jalapenos.",
+      "price": 180,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Potatoes",
+        "Cheese",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1603076076560-6868a24ef7f3?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 10,
+      "restaurantId": 4,
+      "restaurant": "Spice Route Chinese",
+      "name": "Chilli Chicken",
+      "description": "Spicy chicken tossed with peppers and sauce.",
+      "price": 310,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Chillies",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 11,
+      "restaurantId": 4,
+      "restaurant": "Spice Route Chinese",
+      "name": "Veg Hakka Noodles",
+      "description": "Stir-fried noodles with colorful vegetables.",
+      "price": 230,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Noodles",
+        "Vegetables",
+        "Soy sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 12,
+      "restaurantId": 4,
+      "restaurant": "Spice Route Chinese",
+      "name": "Spring Rolls",
+      "description": "Golden rolls filled with vegetables and spices.",
+      "price": 170,
+      "rating": 4.4,
+      "category": "Starters",
+      "ingredients": [
+        "Cabbage",
+        "Carrot",
+        "Wrap"
+      ],
+      "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 13,
+      "restaurantId": 5,
+      "restaurant": "South Spice Dosa",
+      "name": "Masala Dosa",
+      "description": "Crispy dosa filled with spicy potato masala.",
+      "price": 140,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Potato",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 14,
+      "restaurantId": 5,
+      "restaurant": "South Spice Dosa",
+      "name": "Idli Sambar",
+      "description": "Soft idlis served with tangy sambar and chutney.",
+      "price": 120,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Lentils",
+        "Coconut"
+      ],
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 15,
+      "restaurantId": 5,
+      "restaurant": "South Spice Dosa",
+      "name": "Medu Vada",
+      "description": "Crispy lentil doughnuts served hot with chutney.",
+      "price": 110,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Urad dal",
+        "Spices",
+        "Oil"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 16,
+      "restaurantId": 6,
+      "restaurant": "Dessert Delights",
+      "name": "Chocolate Lava Cake",
+      "description": "Warm cake with molten chocolate center.",
+      "price": 190,
+      "rating": 4.9,
+      "category": "Desserts",
+      "ingredients": [
+        "Chocolate",
+        "Butter",
+        "Sugar"
+      ],
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 17,
+      "restaurantId": 6,
+      "restaurant": "Dessert Delights",
+      "name": "Strawberry Cheesecake",
+      "description": "Creamy cheesecake topped with fresh strawberries.",
+      "price": 220,
+      "rating": 4.8,
+      "category": "Desserts",
+      "ingredients": [
+        "Cheese",
+        "Strawberry",
+        "Biscuit"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 18,
+      "restaurantId": 6,
+      "restaurant": "Dessert Delights",
+      "name": "Vanilla Milkshake",
+      "description": "Creamy milkshake made with vanilla ice cream.",
+      "price": 140,
+      "rating": 4.7,
+      "category": "Beverages",
+      "ingredients": [
+        "Milk",
+        "Vanilla",
+        "Ice cream"
+      ],
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 19,
+      "restaurantId": 7,
+      "restaurant": "Tandoori Tales",
+      "name": "Chicken Tikka",
+      "description": "Juicy chicken pieces cooked in tandoor.",
+      "price": 310,
+      "rating": 4.7,
+      "category": "Starters",
+      "ingredients": [
+        "Chicken",
+        "Yogurt",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1604908177522-2d8f2b30c89b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 20,
+      "restaurantId": 7,
+      "restaurant": "Tandoori Tales",
+      "name": "Butter Chicken",
+      "description": "Creamy tomato gravy with tender chicken.",
+      "price": 340,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Butter",
+        "Tomato"
+      ],
+      "image": "https://images.unsplash.com/photo-1604908177522-2d8f2b30c89b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 21,
+      "restaurantId": 7,
+      "restaurant": "Tandoori Tales",
+      "name": "Garlic Naan",
+      "description": "Soft naan topped with garlic butter.",
+      "price": 70,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Flour",
+        "Garlic",
+        "Butter"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 22,
+      "restaurantId": 8,
+      "restaurant": "Sushi & Wok",
+      "name": "Salmon Sushi Platter",
+      "description": "Fresh salmon sushi served with soy sauce.",
+      "price": 420,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Salmon",
+        "Rice",
+        "Seaweed"
+      ],
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 23,
+      "restaurantId": 8,
+      "restaurant": "Sushi & Wok",
+      "name": "Chicken Teriyaki",
+      "description": "Grilled chicken glazed with teriyaki sauce.",
+      "price": 350,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Soy sauce",
+        "Honey"
+      ],
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 24,
+      "restaurantId": 8,
+      "restaurant": "Sushi & Wok",
+      "name": "Veg Spring Rolls",
+      "description": "Golden fried rolls packed with vegetables.",
+      "price": 160,
+      "rating": 4.4,
+      "category": "Starters",
+      "ingredients": [
+        "Cabbage",
+        "Carrot",
+        "Wrapper"
+      ],
+      "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 25,
+      "restaurantId": 9,
+      "restaurant": "Green Bowl Cafe",
+      "name": "Quinoa Power Bowl",
+      "description": "Healthy bowl with quinoa, greens, and avocado.",
+      "price": 290,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Quinoa",
+        "Avocado",
+        "Greens"
+      ],
+      "image": "https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 26,
+      "restaurantId": 9,
+      "restaurant": "Green Bowl Cafe",
+      "name": "Fruit Smoothie",
+      "description": "Fresh blended fruits with chia seeds.",
+      "price": 170,
+      "rating": 4.6,
+      "category": "Beverages",
+      "ingredients": [
+        "Banana",
+        "Berries",
+        "Yogurt"
+      ],
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 27,
+      "restaurantId": 9,
+      "restaurant": "Green Bowl Cafe",
+      "name": "Avocado Toast",
+      "description": "Crispy toast topped with smashed avocado.",
+      "price": 220,
+      "rating": 4.5,
+      "category": "Breakfast",
+      "ingredients": [
+        "Bread",
+        "Avocado",
+        "Seeds"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 28,
+      "restaurantId": 10,
+      "restaurant": "Curry Corner",
+      "name": "Paneer Butter Masala",
+      "description": "Creamy paneer curry with aromatic spices.",
+      "price": 295,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Paneer",
+        "Butter",
+        "Tomato"
+      ],
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 29,
+      "restaurantId": 10,
+      "restaurant": "Curry Corner",
+      "name": "Chole Bhature",
+      "description": "Spicy chickpeas served with fluffy bhature.",
+      "price": 260,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Chickpeas",
+        "Flour",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 30,
+      "restaurantId": 10,
+      "restaurant": "Curry Corner",
+      "name": "Samosa Chat",
+      "description": "Crispy samosas topped with chutneys.",
+      "price": 150,
+      "rating": 4.4,
+      "category": "Starters",
+      "ingredients": [
+        "Potato",
+        "Peas",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 31,
+      "restaurantId": 11,
+      "restaurant": "Noodle Nest",
+      "name": "Szechuan Noodles",
+      "description": "Spicy noodles tossed with vegetables.",
+      "price": 240,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Noodles",
+        "Chillies",
+        "Veggies"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 32,
+      "restaurantId": 11,
+      "restaurant": "Noodle Nest",
+      "name": "Manchurian Balls",
+      "description": "Crispy vegetable balls in tangy sauce.",
+      "price": 210,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Cabbage",
+        "Carrot",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 33,
+      "restaurantId": 11,
+      "restaurant": "Noodle Nest",
+      "name": "Egg Fried Rice",
+      "description": "Classic fried rice with egg and veggies.",
+      "price": 220,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Egg",
+        "Vegetables"
+      ],
+      "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 34,
+      "restaurantId": 12,
+      "restaurant": "Pasta Perfection",
+      "name": "Penne Arrabiata",
+      "description": "Pasta tossed in spicy tomato sauce.",
+      "price": 280,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Penne",
+        "Tomato",
+        "Chilies"
+      ],
+      "image": "https://images.unsplash.com/photo-1512058564366-c9fbd0f2e4ff?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 35,
+      "restaurantId": 12,
+      "restaurant": "Pasta Perfection",
+      "name": "Fettuccine Alfredo",
+      "description": "Creamy pasta with parmesan and herbs.",
+      "price": 320,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Pasta",
+        "Cream",
+        "Cheese"
+      ],
+      "image": "https://images.unsplash.com/photo-1512058564366-c9fbd0f2e4ff?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 36,
+      "restaurantId": 12,
+      "restaurant": "Pasta Perfection",
+      "name": "Bruschetta",
+      "description": "Grilled bread topped with tomato and basil.",
+      "price": 160,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Bread",
+        "Tomato",
+        "Basil"
+      ],
+      "image": "https://images.unsplash.com/photo-1529692236671-f1a1f3834a21?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 37,
+      "restaurantId": 13,
+      "restaurant": "Falafel Feast",
+      "name": "Falafel Wrap",
+      "description": "Crispy falafel rolled with hummus and veggies.",
+      "price": 220,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Chickpeas",
+        "Wrap",
+        "Tahini"
+      ],
+      "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 38,
+      "restaurantId": 13,
+      "restaurant": "Falafel Feast",
+      "name": "Greek Salad",
+      "description": "Fresh salad with feta, olives, and cucumber.",
+      "price": 190,
+      "rating": 4.7,
+      "category": "Starters",
+      "ingredients": [
+        "Tomato",
+        "Cucumber",
+        "Feta"
+      ],
+      "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 39,
+      "restaurantId": 13,
+      "restaurant": "Falafel Feast",
+      "name": "Hummus Platter",
+      "description": "Creamy hummus served with pita and veggies.",
+      "price": 175,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Chickpeas",
+        "Olive oil",
+        "Garlic"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 40,
+      "restaurantId": 14,
+      "restaurant": "Vegan Vibes",
+      "name": "Vegan Buddha Bowl",
+      "description": "A nourishing bowl of grains, greens, and tahini.",
+      "price": 310,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Quinoa",
+        "Veggies",
+        "Tahini"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 41,
+      "restaurantId": 14,
+      "restaurant": "Vegan Vibes",
+      "name": "Green Smoothie",
+      "description": "Spinach and apple smoothie with almond milk.",
+      "price": 160,
+      "rating": 4.7,
+      "category": "Beverages",
+      "ingredients": [
+        "Spinach",
+        "Apple",
+        "Almond milk"
+      ],
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 42,
+      "restaurantId": 14,
+      "restaurant": "Vegan Vibes",
+      "name": "Zucchini Noodles",
+      "description": "Light noodles with basil pesto sauce.",
+      "price": 250,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Zucchini",
+        "Pesto",
+        "Parmesan"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 43,
+      "restaurantId": 15,
+      "restaurant": "Street Bites",
+      "name": "Mexican Nachos",
+      "description": "Crispy nachos loaded with cheese and salsa.",
+      "price": 210,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Nachos",
+        "Cheese",
+        "Jalapenos"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 44,
+      "restaurantId": 15,
+      "restaurant": "Street Bites",
+      "name": "Chicken Wrap",
+      "description": "Grilled chicken wrapped with fresh veggies.",
+      "price": 230,
+      "rating": 4.4,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Wrap",
+        "Lettuce"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 45,
+      "restaurantId": 15,
+      "restaurant": "Street Bites",
+      "name": "Loaded Fries",
+      "description": "French fries loaded with cheese and herbs.",
+      "price": 170,
+      "rating": 4.4,
+      "category": "Starters",
+      "ingredients": [
+        "Potatoes",
+        "Cheese",
+        "Herbs"
+      ],
+      "image": "https://images.unsplash.com/photo-1603076076560-6868a24ef7f3?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 46,
+      "restaurantId": 16,
+      "restaurant": "Seafood Station",
+      "name": "Grilled Prawns",
+      "description": "Tender prawns marinated in garlic butter.",
+      "price": 420,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Prawns",
+        "Butter",
+        "Garlic"
+      ],
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 47,
+      "restaurantId": 16,
+      "restaurant": "Seafood Station",
+      "name": "Fish & Chips",
+      "description": "Crispy fish with golden fries and tartar sauce.",
+      "price": 380,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Fish",
+        "Potatoes",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 48,
+      "restaurantId": 16,
+      "restaurant": "Seafood Station",
+      "name": "Calamari Rings",
+      "description": "Golden fried calamari with lemon dip.",
+      "price": 250,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Calamari",
+        "Flour",
+        "Lemon"
+      ],
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 49,
+      "restaurantId": 17,
+      "restaurant": "Mexi Munch",
+      "name": "Chicken Quesadilla",
+      "description": "Grilled tortilla filled with chicken and cheese.",
+      "price": 260,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Cheese",
+        "Tortilla"
+      ],
+      "image": "https://images.unsplash.com/photo-1543352634-2dd40f12d4aa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 50,
+      "restaurantId": 17,
+      "restaurant": "Mexi Munch",
+      "name": "Beef Taco",
+      "description": "Soft taco with seasoned beef and salsa.",
+      "price": 170,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Beef",
+        "Tortilla",
+        "Salsa"
+      ],
+      "image": "https://images.unsplash.com/photo-1543352634-2dd40f12d4aa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 51,
+      "restaurantId": 17,
+      "restaurant": "Mexi Munch",
+      "name": "Nacho Supreme",
+      "description": "Loaded nachos topped with cheese and beans.",
+      "price": 210,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Nachos",
+        "Cheese",
+        "Beans"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 52,
+      "restaurantId": 18,
+      "restaurant": "Cafe Italiano",
+      "name": "Cappuccino",
+      "description": "Rich espresso coffee topped with frothy milk.",
+      "price": 150,
+      "rating": 4.8,
+      "category": "Beverages",
+      "ingredients": [
+        "Espresso",
+        "Milk",
+        "Foam"
+      ],
+      "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 53,
+      "restaurantId": 18,
+      "restaurant": "Cafe Italiano",
+      "name": "Spinach Lasagna",
+      "description": "Layers of pasta, cheese, and spinach sauce.",
+      "price": 370,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Pasta",
+        "Spinach",
+        "Cheese"
+      ],
+      "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 54,
+      "restaurantId": 18,
+      "restaurant": "Cafe Italiano",
+      "name": "Tiramisu",
+      "description": "Coffee-flavored Italian dessert with mascarpone.",
+      "price": 210,
+      "rating": 4.9,
+      "category": "Desserts",
+      "ingredients": [
+        "Coffee",
+        "Mascarpone",
+        "Cocoa"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 55,
+      "restaurantId": 19,
+      "restaurant": "Kebab Kastle",
+      "name": "Seekh Kebab",
+      "description": "Spiced lamb kebabs served with mint chutney.",
+      "price": 290,
+      "rating": 4.6,
+      "category": "Starters",
+      "ingredients": [
+        "Lamb",
+        "Spices",
+        "Herbs"
+      ],
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 56,
+      "restaurantId": 19,
+      "restaurant": "Kebab Kastle",
+      "name": "Shawarma Platter",
+      "description": "Grilled shawarma with rice, salad, and sauce.",
+      "price": 340,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Salad",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 57,
+      "restaurantId": 19,
+      "restaurant": "Kebab Kastle",
+      "name": "Hummus with Pita",
+      "description": "Smooth hummus served with warm pita bread.",
+      "price": 180,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Chickpeas",
+        "Pita",
+        "Olive oil"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 58,
+      "restaurantId": 20,
+      "restaurant": "Breakfast Barn",
+      "name": "Avocado Pancakes",
+      "description": "Fluffy pancakes topped with avocado and honey.",
+      "price": 240,
+      "rating": 4.8,
+      "category": "Breakfast",
+      "ingredients": [
+        "Flour",
+        "Avocado",
+        "Honey"
+      ],
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 59,
+      "restaurantId": 20,
+      "restaurant": "Breakfast Barn",
+      "name": "Berry Parfait",
+      "description": "Layered yogurt with berries and granola.",
+      "price": 170,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Yogurt",
+        "Berries",
+        "Granola"
+      ],
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 60,
+      "restaurantId": 20,
+      "restaurant": "Breakfast Barn",
+      "name": "Egg Benedict",
+      "description": "Poached eggs with hollandaise on muffin.",
+      "price": 320,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Eggs",
+        "Muffin",
+        "Hollandaise"
+      ],
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 61,
+      "restaurantId": 21,
+      "restaurant": "Rolls & Wraps",
+      "name": "Paneer Wrap",
+      "description": "Spiced paneer rolled with fresh vegetables.",
+      "price": 220,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Paneer",
+        "Wrap",
+        "Lettuce"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 62,
+      "restaurantId": 21,
+      "restaurant": "Rolls & Wraps",
+      "name": "Chicken Shawarma Roll",
+      "description": "Tender chicken rolled with garlic sauce.",
+      "price": 240,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Wrap",
+        "Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 63,
+      "restaurantId": 21,
+      "restaurant": "Rolls & Wraps",
+      "name": "Veggie Roll",
+      "description": "Crispy vegetables with hummus and spices.",
+      "price": 200,
+      "rating": 4.4,
+      "category": "Main Course",
+      "ingredients": [
+        "Veggies",
+        "Wrap",
+        "Hummus"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 64,
+      "restaurantId": 22,
+      "restaurant": "Cloud 9 Desserts",
+      "name": "Red Velvet Cake",
+      "description": "Velvety red cake layered with cream cheese frosting.",
+      "price": 220,
+      "rating": 4.9,
+      "category": "Desserts",
+      "ingredients": [
+        "Cocoa",
+        "Cream cheese",
+        "Flour"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 65,
+      "restaurantId": 22,
+      "restaurant": "Cloud 9 Desserts",
+      "name": "Chocolate Truffle",
+      "description": "Rich chocolate dessert with ganache.",
+      "price": 210,
+      "rating": 4.8,
+      "category": "Desserts",
+      "ingredients": [
+        "Chocolate",
+        "Cream",
+        "Butter"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 66,
+      "restaurantId": 22,
+      "restaurant": "Cloud 9 Desserts",
+      "name": "Berry Tart",
+      "description": "Crispy tart filled with custard and berries.",
+      "price": 230,
+      "rating": 4.7,
+      "category": "Desserts",
+      "ingredients": [
+        "Berries",
+        "Custard",
+        "Crust"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 67,
+      "restaurantId": 23,
+      "restaurant": "Grill Garden",
+      "name": "Grilled Chicken Skewers",
+      "description": "Marinated chicken grilled to perfection.",
+      "price": 320,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Spices",
+        "Lemon"
+      ],
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 68,
+      "restaurantId": 23,
+      "restaurant": "Grill Garden",
+      "name": "BBQ Ribs",
+      "description": "Slow-cooked ribs glazed in barbecue sauce.",
+      "price": 450,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Pork",
+        "BBQ sauce",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 69,
+      "restaurantId": 23,
+      "restaurant": "Grill Garden",
+      "name": "Grilled Veg Platter",
+      "description": "Seasonal vegetables grilled with herbs.",
+      "price": 260,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Veggies",
+        "Olive oil",
+        "Herbs"
+      ],
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 70,
+      "restaurantId": 24,
+      "restaurant": "Paani Puri Palace",
+      "name": "Classic Paani Puri",
+      "description": "Crispy puris filled with spiced water and potato.",
+      "price": 100,
+      "rating": 4.5,
+      "category": "Street Food",
+      "ingredients": [
+        "Puris",
+        "Potato",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 71,
+      "restaurantId": 24,
+      "restaurant": "Paani Puri Palace",
+      "name": "Dahi Puri",
+      "description": "Puris topped with yogurt, chutneys, and sev.",
+      "price": 120,
+      "rating": 4.6,
+      "category": "Street Food",
+      "ingredients": [
+        "Puris",
+        "Yogurt",
+        "Chutneys"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 72,
+      "restaurantId": 24,
+      "restaurant": "Paani Puri Palace",
+      "name": "Samosa Chaat",
+      "description": "Crispy samosa topped with chutneys and yogurt.",
+      "price": 140,
+      "rating": 4.4,
+      "category": "Street Food",
+      "ingredients": [
+        "Samosa",
+        "Yogurt",
+        "Chutneys"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 73,
+      "restaurantId": 25,
+      "restaurant": "Morning Munchies",
+      "name": "Oatmeal Bowl",
+      "description": "Warm oatmeal topped with berries and nuts.",
+      "price": 180,
+      "rating": 4.8,
+      "category": "Breakfast",
+      "ingredients": [
+        "Oats",
+        "Berries",
+        "Nuts"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 74,
+      "restaurantId": 25,
+      "restaurant": "Morning Munchies",
+      "name": "Breakfast Burrito",
+      "description": "Tortilla stuffed with eggs, cheese, and veggies.",
+      "price": 220,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Eggs",
+        "Tortilla",
+        "Cheese"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 75,
+      "restaurantId": 25,
+      "restaurant": "Morning Munchies",
+      "name": "Smoothie Bowl",
+      "description": "Thick smoothie topped with granola and fruits.",
+      "price": 210,
+      "rating": 4.8,
+      "category": "Breakfast",
+      "ingredients": [
+        "Berries",
+        "Yogurt",
+        "Granola"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 76,
+      "restaurantId": 1,
+      "restaurant": "Urban Biryani House",
+      "name": "Egg Biryani",
+      "description": "Classic biryani with boiled eggs and spices.",
+      "price": 260,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Eggs",
+        "Basmati rice",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1600628428660-93d52290f1db?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 77,
+      "restaurantId": 2,
+      "restaurant": "Pizza Panorama",
+      "name": "Veggie Supreme Pizza",
+      "description": "A colorful pizza loaded with vegetables.",
+      "price": 400,
+      "rating": 4.6,
+      "category": "Pizza",
+      "ingredients": [
+        "Peppers",
+        "Onions",
+        "Tomato"
+      ],
+      "image": "https://images.unsplash.com/photo-1548365328-965262d40a06?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 78,
+      "restaurantId": 3,
+      "restaurant": "Burger Boulevard",
+      "name": "Spicy Chicken Burger",
+      "description": "Crispy chicken with spicy sauce and pickles.",
+      "price": 270,
+      "rating": 4.6,
+      "category": "Burger",
+      "ingredients": [
+        "Chicken",
+        "Bun",
+        "Spicy sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 79,
+      "restaurantId": 4,
+      "restaurant": "Spice Route Chinese",
+      "name": "Schezwan Fried Rice",
+      "description": "Fried rice with bold schezwan flavors.",
+      "price": 230,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Schezwan sauce",
+        "Veggies"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 80,
+      "restaurantId": 5,
+      "restaurant": "South Spice Dosa",
+      "name": "Rava Dosa",
+      "description": "Crispy rava dosa served with chutney.",
+      "price": 150,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Semolina",
+        "Spices",
+        "Coconut"
+      ],
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 81,
+      "restaurantId": 6,
+      "restaurant": "Dessert Delights",
+      "name": "Banana Split",
+      "description": "Classic banana split with chocolate sauce.",
+      "price": 210,
+      "rating": 4.8,
+      "category": "Desserts",
+      "ingredients": [
+        "Banana",
+        "Ice cream",
+        "Chocolate"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 82,
+      "restaurantId": 7,
+      "restaurant": "Tandoori Tales",
+      "name": "Naan Basket",
+      "description": "Assortment of butter, garlic, and plain naan.",
+      "price": 120,
+      "rating": 4.5,
+      "category": "Starters",
+      "ingredients": [
+        "Flour",
+        "Butter",
+        "Garlic"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 83,
+      "restaurantId": 8,
+      "restaurant": "Sushi & Wok",
+      "name": "Dragon Roll",
+      "description": "Special sushi roll with avocado and tempura.",
+      "price": 430,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Avocado",
+        "Tempura"
+      ],
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 84,
+      "restaurantId": 9,
+      "restaurant": "Green Bowl Cafe",
+      "name": "Kale Caesar Salad",
+      "description": "Fresh kale with classic Caesar dressing.",
+      "price": 220,
+      "rating": 4.6,
+      "category": "Starters",
+      "ingredients": [
+        "Kale",
+        "Parmesan",
+        "Croutons"
+      ],
+      "image": "https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 85,
+      "restaurantId": 10,
+      "restaurant": "Curry Corner",
+      "name": "Daal Makhani",
+      "description": "Slow-cooked lentils in creamy gravy.",
+      "price": 260,
+      "rating": 4.7,
+      "category": "Main Course",
+      "ingredients": [
+        "Lentils",
+        "Butter",
+        "Cream"
+      ],
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 86,
+      "restaurantId": 11,
+      "restaurant": "Noodle Nest",
+      "name": "Dragon Chicken",
+      "description": "Crispy chicken tossed in spicy orange sauce.",
+      "price": 320,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Chicken",
+        "Orange sauce",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 87,
+      "restaurantId": 12,
+      "restaurant": "Pasta Perfection",
+      "name": "Mushroom Ravioli",
+      "description": "Stuffed ravioli in creamy mushroom sauce.",
+      "price": 380,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Mushrooms",
+        "Pasta",
+        "Cream"
+      ],
+      "image": "https://images.unsplash.com/photo-1512058564366-c9fbd0f2e4ff?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 88,
+      "restaurantId": 13,
+      "restaurant": "Falafel Feast",
+      "name": "Tabbouleh Salad",
+      "description": "Refreshing parsley-based Middle Eastern salad.",
+      "price": 190,
+      "rating": 4.6,
+      "category": "Starters",
+      "ingredients": [
+        "Parsley",
+        "Tomato",
+        "Bulgur"
+      ],
+      "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 89,
+      "restaurantId": 14,
+      "restaurant": "Vegan Vibes",
+      "name": "Mushroom Burger",
+      "description": "Plant-based burger with grilled mushrooms.",
+      "price": 260,
+      "rating": 4.6,
+      "category": "Burger",
+      "ingredients": [
+        "Mushrooms",
+        "Bun",
+        "Greens"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 90,
+      "restaurantId": 15,
+      "restaurant": "Street Bites",
+      "name": "Paneer Tikka Wrap",
+      "description": "Spicy paneer wrapped with vegetables.",
+      "price": 220,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Paneer",
+        "Wrap",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 91,
+      "restaurantId": 16,
+      "restaurant": "Seafood Station",
+      "name": "Lobster Roll",
+      "description": "Buttery lobster meat in a toasted bun.",
+      "price": 520,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Lobster",
+        "Bun",
+        "Butter"
+      ],
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 92,
+      "restaurantId": 17,
+      "restaurant": "Mexi Munch",
+      "name": "Burrito Bowl",
+      "description": "Rice bowl loaded with beans, meat, and salsa.",
+      "price": 280,
+      "rating": 4.6,
+      "category": "Main Course",
+      "ingredients": [
+        "Rice",
+        "Beans",
+        "Salsa"
+      ],
+      "image": "https://images.unsplash.com/photo-1543352634-2dd40f12d4aa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 93,
+      "restaurantId": 18,
+      "restaurant": "Cafe Italiano",
+      "name": "Brie & Fig Sandwich",
+      "description": "Warm sandwich with brie cheese and figs.",
+      "price": 260,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Brie",
+        "Figs",
+        "Bread"
+      ],
+      "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 94,
+      "restaurantId": 19,
+      "restaurant": "Kebab Kastle",
+      "name": "Shami Kebab",
+      "description": "Pan-fried kebabs served with green chutney.",
+      "price": 240,
+      "rating": 4.6,
+      "category": "Starters",
+      "ingredients": [
+        "Lamb",
+        "Chickpeas",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 95,
+      "restaurantId": 20,
+      "restaurant": "Breakfast Barn",
+      "name": "Granola Bowl",
+      "description": "Healthy granola with yogurt and fruits.",
+      "price": 180,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Granola",
+        "Yogurt",
+        "Fruits"
+      ],
+      "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 96,
+      "restaurantId": 21,
+      "restaurant": "Rolls & Wraps",
+      "name": "Greek Wrap",
+      "description": "Wrap filled with feta, olives, and tzatziki.",
+      "price": 230,
+      "rating": 4.5,
+      "category": "Main Course",
+      "ingredients": [
+        "Feta",
+        "Olives",
+        "Wrap"
+      ],
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 97,
+      "restaurantId": 22,
+      "restaurant": "Cloud 9 Desserts",
+      "name": "Macaron Box",
+      "description": "Assorted French macarons in bright flavors.",
+      "price": 260,
+      "rating": 4.9,
+      "category": "Desserts",
+      "ingredients": [
+        "Almond flour",
+        "Sugar",
+        "Buttercream"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 98,
+      "restaurantId": 23,
+      "restaurant": "Grill Garden",
+      "name": "Beef Steak",
+      "description": "Succulent steak served with herb butter.",
+      "price": 520,
+      "rating": 4.8,
+      "category": "Main Course",
+      "ingredients": [
+        "Beef",
+        "Herb butter",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 99,
+      "restaurantId": 24,
+      "restaurant": "Paani Puri Palace",
+      "name": "Bhel Puri",
+      "description": "Tangy puffed rice chaat with chutneys.",
+      "price": 130,
+      "rating": 4.5,
+      "category": "Street Food",
+      "ingredients": [
+        "Puffed rice",
+        "Chutney",
+        "Vegetables"
+      ],
+      "image": "https://images.unsplash.com/photo-1481931715705-36f9e926d4cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 100,
+      "restaurantId": 25,
+      "restaurant": "Morning Munchies",
+      "name": "French Toast",
+      "description": "Sweet french toast topped with berries.",
+      "price": 240,
+      "rating": 4.7,
+      "category": "Breakfast",
+      "ingredients": [
+        "Bread",
+        "Egg",
+        "Berries"
+      ],
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
