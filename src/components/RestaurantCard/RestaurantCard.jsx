@@ -5,14 +5,14 @@ const RestaurantCard = ({ restaurant }) => (
     <img src={restaurant.image} className="card-img-top" alt={restaurant.name} />
     <div className="card-body">
       <h5 className="card-title mb-2">{restaurant.name}</h5>
-      <p className="mb-2 text-muted-small">{restaurant.cuisine.join(' • ')}</p>
+      <p className="mb-2 text-muted-small">{restaurant.cuisine}</p>
       <div className="d-flex justify-content-between align-items-center">
         <span className="badge bg-success">{restaurant.rating} ★</span>
         <span className="text-muted-small">{restaurant.deliveryTime} mins</span>
       </div>
     </div>
     <div className="card-footer bg-white border-0">
-      <Link to={`/restaurants/${restaurant.id}`} className="btn btn-outline-primary btn-sm w-100">
+      <Link to={`/restaurants/${restaurant._id}`} className="btn btn-outline-primary btn-sm w-100">
         View Menu
       </Link>
     </div>

@@ -8,7 +8,7 @@ const initialState = {
   error: null,
 };
 
-export const fetchRestaurants = createAsyncThunk('restaurants/fetch', async (_, { rejectWithValue }) => {
+export const fetchRestaurants = createAsyncThunk('allRestaurants', async (_, { rejectWithValue }) => {
   try {
     const response = await fetchRestaurantsAPI();
     return response;

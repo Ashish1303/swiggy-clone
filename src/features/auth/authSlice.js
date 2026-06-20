@@ -12,7 +12,7 @@ const initialState = {
   error: null,
 };
 
-export const login = createAsyncThunk('auth/login', async (payload, { rejectWithValue }) => {
+export const login = createAsyncThunk('login', async (payload, { rejectWithValue }) => {
   try {
     const response = await loginUser(payload);
     return response;
@@ -21,7 +21,7 @@ export const login = createAsyncThunk('auth/login', async (payload, { rejectWith
   }
 });
 
-export const signup = createAsyncThunk('auth/signup', async (payload, { rejectWithValue }) => {
+export const signup = createAsyncThunk('signup', async (payload, { rejectWithValue }) => {
   try {
     const response = await signupUser(payload);
     return response;

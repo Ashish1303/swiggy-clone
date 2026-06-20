@@ -1,7 +1,7 @@
 import api from '../../api/api';
 
 export const fetchRestaurantsAPI = async () => {
-  const response = await api.get('/restaurants');
+  const response = await api.get('/allRestaurants');
   return response.data;
 };
 

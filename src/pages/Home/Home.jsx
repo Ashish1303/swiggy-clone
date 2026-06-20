@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         <div className="row g-4">
           {restaurants.slice(0, 6).map((restaurant) => (
-            <div key={restaurant.id} className="col-sm-6 col-xl-4">
+            <div key={restaurant._id} className="col-sm-6 col-xl-4">
               <RestaurantCard restaurant={restaurant} />
             </div>
           ))}

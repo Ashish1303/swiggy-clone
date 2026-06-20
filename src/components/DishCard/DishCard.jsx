@@ -25,7 +25,7 @@ const DishCard = ({ dish }) => {
           <span className="badge bg-warning text-dark">{dish.rating} ★</span>
         </div>
         <div className="d-flex justify-content-between">
-          <Link to={`/dishes/${dish.id}`} className="btn btn-outline-secondary btn-sm">Details</Link>
+          <Link to={`/dishes/${dish._id}`} className="btn btn-outline-secondary btn-sm">Details</Link>
           <button type="button" className="btn btn-primary btn-sm" onClick={handleAdd}>Add</button>
         </div>
       </div>

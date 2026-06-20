@@ -30,7 +30,7 @@ const RestaurantDetails = () => {
           <div className="d-flex justify-content-between align-items-start flex-column flex-md-row gap-3">
             <div>
               <h2>{selectedRestaurant.name}</h2>
-              <p className="text-muted-small mb-1">{selectedRestaurant.cuisine.join(' • ')}</p>
+              <p className="text-muted-small mb-1">{selectedRestaurant.cuisine}</p>
               <p className="text-muted-small">{selectedRestaurant.location}</p>
             </div>
             <div className="text-end">

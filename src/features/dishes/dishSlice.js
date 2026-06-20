@@ -9,7 +9,7 @@ const initialState = {
   error: null,
 };
 
-export const fetchDishes = createAsyncThunk('dishes/fetch', async (_, { rejectWithValue }) => {
+export const fetchDishes = createAsyncThunk('dishes', async (_, { rejectWithValue }) => {
   try {
     const response = await fetchDishesAPI();
     return response;
@@ -18,7 +18,7 @@ export const fetchDishes = createAsyncThunk('dishes/fetch', async (_, { rejectWi
   }
 });
 
-export const fetchDishById = createAsyncThunk('dishes/fetchById', async (id, { rejectWithValue }) => {
+export const fetchDishById = createAsyncThunk('dishes/:id', async (id, { rejectWithValue }) => {
   try {
     const response = await fetchDishByIdAPI(id);
     return response;
