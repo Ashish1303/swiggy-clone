@@ -6,7 +6,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 const app = express();
-const port = 4000;
+const port = 3000;
 const secret = 'GharKaBite_ _secret_key';
 const dbPath = path.resolve('server/data/db.json');
 
