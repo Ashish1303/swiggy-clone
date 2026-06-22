@@ -1,4 +1,5 @@
 import { lazy } from 'react';
+import { useSelector } from 'react-redux';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import ProtectedRoute from '../components/ProtectedRoute/ProtectedRoute';
 import Navbar from '../components/Navbar/Navbar';
@@ -15,23 +16,33 @@ const Checkout = lazy(() => import('../pages/Checkout/Checkout'));
 const Profile = lazy(() => import('../pages/Profile/Profile'));
 const NotFound = lazy(() => import('../pages/NotFound/NotFound'));
 
-const AppRoutes = () => (
-  <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/search" element={<Search />} />
-      <Route path="/restaurants/:id" element={<RestaurantDetails />} />
-      <Route path="/dishes/:id" element={<DishDetails />} />
-      <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
-      <Route path="/checkout" element={<ProtectedRoute><Checkout /></ProtectedRoute>} />
-      <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-    <Footer />
-  </>
-);
+const AppRoutes = () => {
+  const { isAuthenticated } = useSelector((state) => state.auth);
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/login"
+          element={isAuthenticated ? <Navigate to="/" replace /> : <Login />}
+        />
+        <Route
+          path="/signup"
+          element={isAuthenticated ? <Navigate to="/" replace /> : <Signup />}
+        />
+        <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+        <Route path="/search" element={<ProtectedRoute><Search /></ProtectedRoute>} />
+        <Route path="/restaurants/:id" element={<ProtectedRoute><RestaurantDetails /></ProtectedRoute>} />
+        <Route path="/dishes/:id" element={<ProtectedRoute><DishDetails /></ProtectedRoute>} />
+        <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
+        <Route path="/checkout" element={<ProtectedRoute><Checkout /></ProtectedRoute>} />
+        <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
+        <Route path="*" element={<ProtectedRoute><NotFound /></ProtectedRoute>} />
+      </Routes>
+      <Footer />
+    </>
+  );
+};
 
 export default AppRoutes;

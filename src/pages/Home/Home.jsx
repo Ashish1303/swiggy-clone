@@ -17,6 +17,7 @@ const categories = [
 
 const Home = () => {
   const dispatch = useDispatch();
+   const { isAuthenticated } = useSelector((state) => state.auth);
   const { restaurants, loading: restaurantLoading } = useSelector((state) => state.restaurants);
   const { dishes, loading: dishLoading } = useSelector((state) => state.dishes);
 
@@ -61,11 +62,15 @@ const Home = () => {
           <h3 className="mb-0">Top Restaurants</h3>
         </div>
         <div className="row g-4">
-          {restaurants.slice(0, 6).map((restaurant) => (
-            <div key={restaurant._id} className="col-sm-6 col-xl-4">
-              <RestaurantCard restaurant={restaurant} />
-            </div>
-          ))}
+         { isAuthenticated ? (
+            restaurants.slice(0, 6).map((restaurant) => (
+              <div key={restaurant._id} className="col-sm-6 col-xl-4">
+                <RestaurantCard restaurant={restaurant} />
+              </div>
+            ))
+          ) : (
+            <p>Please log in to view top restaurants.</p>
+          )}
         </div>
       </section>
 
@@ -74,11 +79,15 @@ const Home = () => {
           <h3 className="mb-0">Popular Dishes</h3>
         </div>
         <div className="row g-4">
-          {dishes.slice(0, 6).map((dish) => (
+          { isAuthenticated ? (
+          dishes.slice(0, 6).map((dish) => (
             <div key={dish.id} className="col-sm-6 col-xl-4">
               <DishCard dish={dish} />
             </div>
-          ))}
+          ))) : 
+            <p>Please log in to view popular dishes.</p>
+          
+        }
         </div>
       </section>
     </main>
